@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		520F3B2423A006FC0077BF0A /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520F3B2323A006FC0077BF0A /* Secrets.swift */; };
+		520F3B2623A011F20077BF0A /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520F3B2523A011F20077BF0A /* Recipe.swift */; };
+		520F3B2823A012B00077BF0A /* ReciepeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520F3B2723A012B00077BF0A /* ReciepeAPI.swift */; };
 		5772B7A2239FE136000BB563 /* NetworkHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5772B7A1239FE136000BB563 /* NetworkHelperTests.swift */; };
 		57E98677239F3A8D002C7C7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E98676239F3A8D002C7C7B /* AppDelegate.swift */; };
 		57E98679239F3A8D002C7C7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E98678239F3A8D002C7C7B /* SceneDelegate.swift */; };
@@ -33,6 +35,8 @@
 
 /* Begin PBXFileReference section */
 		520F3B2323A006FC0077BF0A /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		520F3B2523A011F20077BF0A /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		520F3B2723A012B00077BF0A /* ReciepeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReciepeAPI.swift; sourceTree = "<group>"; };
 		5772B7A1239FE136000BB563 /* NetworkHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelperTests.swift; sourceTree = "<group>"; };
 		57E98673239F3A8D002C7C7B /* RecipeSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E98676239F3A8D002C7C7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +128,7 @@
 			children = (
 				57E9869A239F3AC5002C7C7B /* AppError.swift */,
 				57E98699239F3AC5002C7C7B /* NetworkHelper.swift */,
+				520F3B2723A012B00077BF0A /* ReciepeAPI.swift */,
 			);
 			path = "Network Services";
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 		57E986A2239F3B0D002C7C7B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				520F3B2523A011F20077BF0A /* Recipe.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -276,8 +282,10 @@
 				520F3B2423A006FC0077BF0A /* Secrets.swift in Sources */,
 				57E9867B239F3A8D002C7C7B /* RecipeSearchController.swift in Sources */,
 				57E9869E239F3AC5002C7C7B /* AppError.swift in Sources */,
+				520F3B2623A011F20077BF0A /* Recipe.swift in Sources */,
 				57E98677239F3A8D002C7C7B /* AppDelegate.swift in Sources */,
 				57E98679239F3A8D002C7C7B /* SceneDelegate.swift in Sources */,
+				520F3B2823A012B00077BF0A /* ReciepeAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
