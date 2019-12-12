@@ -38,7 +38,7 @@ class RecipeSearchAPITests: XCTestCase {
         let query = "christmas cookies".addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!
         
         // exp
-        let exp = XCTestExpectation(description: "search found")
+        let exp = XCTestExpectation(description: "recipe found")
         
         // act
         ReciepeAPI.getReciepe(searchQuery: query) { (result) in

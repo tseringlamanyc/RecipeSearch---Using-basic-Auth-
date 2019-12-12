@@ -31,7 +31,7 @@ struct ReciepeAPI {
                     
                     // TODO: make an array of recipes
                     // capture in completion handler
-                    
+                    // let recipes = results.hits.map {$0.recipe}
                     var dataArr = [Recipe]()
                     let hits = results.hits
                     for hit in hits {
